@@ -1,0 +1,30 @@
+.users__title{
+  margin-bottom: 20px;
+}
+
+.users__items{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+.users__item{
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  background-color: rgb(87, 81, 81);
+  display: inline-block;
+  min-width: 450px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.users__item:nth-child(2n){
+  margin-right: 0px;
+}
+
+.users__link{
+  text-align: end;
+  cursor: pointer;
+}
